@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chapter 6 travel-themed website checkpoint project using HTML5 and CSS.">
+  <title>Checkpoints | Explore More</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header class="site-header">
+      <div class="header-copy"><h1>Explore More</h1><p>A travel-inspired Chapter 6 web project</p></div>
+    </header>
+    <nav id="leftcolumn" aria-label="Main navigation">
+      <h2>Explore</h2><ul><li><a href="index.html">Home</a></li>
+<li><a href="destinations.html">Destinations</a></li>
+<li><a href="checkpoints.html" aria-current="page">Checkpoints</a></li></ul>
+      <div class="sidebar-note">Chapter 6 practice: box model, floats, two-column layout, positioning, navigation, and HTML5 page structure.</div>
+      <p class="note"><a href="mobile/index.html">Mobile version</a></p>
+    </nav>
+    <main id="content">
+      <span class="eyebrow">Chapter 6 Practice</span>
+      <h2>Checkpoint 1–3</h2>
+      <p class="lead">Answers to the three sets of checkpoint questions in the Chapter 6 slides. The pages on this site also demonstrate the HTML and CSS ideas.</p>
+      <section class="checkpoint" aria-labelledby="cp1"><h3 id="cp1">Checkpoint 1 — Box model and CSS positioning</h3>
+      <ol>
+        <li><strong>List the parts of the box model.</strong><p>From the inside out: content, padding, border, and margin.</p></li>
+        <li><strong>What is the difference between relative and absolute positioning?</strong><p>Relative positioning moves an element from where it would normally be. Absolute positioning places an element at a specific spot based on its nearest positioned container (or the page if there is none).</p></li>
+        <li><strong>What does the float property do?</strong><p>The float property moves an element to the left or right so other content can wrap around it.</p></li>
+      </ol>
+      <div class="example-box"><strong>Box model example:</strong> This box has content, padding, a border, and margin around it.</div>
+      </section>
+      <section class="checkpoint" aria-labelledby="cp2"><h3 id="cp2">Checkpoint 2 — Layout and CSS tools</h3>
+      <ol>
+        <li><strong>Resize the practice page. What happens, and what layout is used?</strong><p>On <a href="practice/index.html">my demonstration practice page</a>, the content grows and shrinks with the browser up to a maximum width. This is a jello layout because it is flexible on smaller screens but stops growing past a set size.</p><p class="note">The original chapter6/practice/index.html from Hands-On Practice 6.5 was not included with the provided files, so this answer describes the demo page supplied here instead.</p></li>
+        <li><strong>Name a helpful CSS debugging tip.</strong><p>I find it helpful to check the CSS for missing semicolons or brackets, then use the W3C CSS Validator if I cannot spot the problem.</p></li>
+        <li><strong>When should you use an element selector, class, or id?</strong><p>Use an element selector for all tags of that type, a class for styles that can be reused, and an id for one specific element on the page.</p></li>
+      </ol></section>
+      <section class="checkpoint" aria-labelledby="cp3"><h3 id="cp3">Checkpoint 3 — HTML5 structural elements</h3>
+      <ol>
+        <li><strong>Why use structural HTML5 elements instead of divs?</strong><p>Elements like header, nav, main, article, and footer make it easier to tell what each part of the page is for.</p></li>
+        <li><strong>What is the purpose of article?</strong><p>The article element holds content that could stand on its own, like a news story or blog post.</p></li>
+        <li><strong>What is the purpose of hgroup?</strong><p>The hgroup element groups a heading with related heading text, such as a title and subtitle.</p></li>
+      </ol></section>
+      <p class="note">See the page source and <a href="styles.css">CSS file</a> for examples of a two-column layout, relative and absolute positioning, floats, margins, padding, lists, and hyperlink pseudo-classes.</p>
+    </main>
+    <footer class="site-footer">Explore More &bull; Chapter 6 HTML5 &amp; CSS Checkpoint &bull; <a href="checkpoints.html">What I practiced</a></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chapter 6 travel-themed website checkpoint project using HTML5 and CSS.">
+  <title>Home | Explore More</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header class="site-header">
+      <div class="header-copy"><h1>Explore More</h1><p>A travel-inspired Chapter 6 web project</p></div>
+    </header>
+    <nav id="leftcolumn" aria-label="Main navigation">
+      <h2>Explore</h2><ul><li><a href="index.html" aria-current="page">Home</a></li>
+<li><a href="destinations.html">Destinations</a></li>
+<li><a href="checkpoints.html">Checkpoints</a></li></ul>
+      <div class="sidebar-note">Chapter 6 practice: box model, floats, two-column layout, positioning, navigation, and HTML5 page structure.</div>
+      <p class="note"><a href="../index.html">Desktop version</a></p>
+    </nav>
+    <main id="content">
+      <span class="eyebrow">Travel Inspiration</span>
+      <h2>Find a place worth exploring</h2>
+      <p class="lead">From peaceful beaches to amazing city views, the world has a lot to offer. Take a look at a few of the places that make traveling exciting.</p>
+      <figure class="hero-photo">
+        <img src="images/bali-1.jpg" alt="Palm trees reflected in calm water at sunset">
+        <figcaption class="photo-caption">Enjoy the view and discover somewhere new.</figcaption>
+      </figure>
+      <section aria-labelledby="featured-title">
+        <h2 id="featured-title">Featured places</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="images/bali-2.jpg" alt="Hot air balloon over temples in a hazy sunrise">
+            <div class="card-copy"><h3>Sunrise adventures</h3><p>Some views are worth waking up early for. See what makes a new place special.</p><a class="button-link" href="destinations.html#bali">View adventure</a></div>
+          </article>
+          <article class="card">
+            <img src="images/paris.jpg" alt="Eiffel Tower in Paris during golden hour">
+            <div class="card-copy"><h3>Paris, France</h3><p>Famous landmarks, beautiful architecture, and streets filled with history.</p><a class="button-link" href="destinations.html#paris">View Paris</a></div>
+          </article>
+        </div>
+      </section>
+      <aside class="info-box clear"><strong>About this project:</strong> This site demonstrates Chapter 6 topics, including floats, box-model spacing, CSS positioning, hover links, and semantic HTML5 elements.</aside>
+    </main>
+    <footer class="site-footer">Explore More &bull; Chapter 6 HTML5 &amp; CSS Checkpoint &bull; <a href="checkpoints.html">What I practiced</a></footer>
+  </div>
+</body>
+</html>
